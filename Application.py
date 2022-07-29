@@ -1,2 +1,2 @@
 import Core.core
-import View.View
+import Controller.Controller
