@@ -1,1 +1,8 @@
-
+body {
+    font-family: 'Comic Sans MS', "Comic Sans", cursive;
+    margin: 0;
+    background-color: #dadada;
+  }
+.h3{
+    font-family: 'Comic Sans MS', "Comic Sans", cursive;
+}
