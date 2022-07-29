@@ -43,7 +43,11 @@ def CreateDB():
     print(DatabaseQuery(Index_Table))
 
 existing =DatabaseQuery("SHOW DATABASES")
+print(existing)
 if existing == None or "CRIT" not in existing:
-    CreateDB()
+    try:
+        CreateDB()
+    except:
+        print("Table Already Created")
 else:
     print(DatabaseQuery("USE crit"))
