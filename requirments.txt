@@ -1,0 +1,3 @@
+Flask
+pip install flask-mysqldb
+mysql-connector-python
